@@ -18,7 +18,7 @@ import seaborn as sns
 # Criação da SparkSession
 spark = SparkSession.builder.appName("NBAplayers").getOrCreate()
 
-# dados de jogadores
+# dados de jogadores(abstrato)
 data = [
     ("LeBron James", "LAL", 1698, 514, 488, 55, 2022),
     ("Stephen Curry", "GSW", 1873, 469, 354, 64, 2022),
